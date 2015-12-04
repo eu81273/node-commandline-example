@@ -3,9 +3,15 @@
   "version": "1.0.0",
   "description": "node.js based  command line tool example",
   "main": "index.js",
+  "bin": {
+    "node-commandline-example": "./index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "AHN JAE-HA",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.9.0"
+  }
 }

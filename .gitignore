@@ -1,0 +1,15 @@
+# Logs
+logs
+*.log
+
+# Swap files
+*.swp
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Dependency directory
+node_modules
+
