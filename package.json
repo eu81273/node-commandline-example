@@ -1,13 +1,17 @@
 {
   "name": "node-commandline-example",
   "version": "1.0.0",
-  "description": "node.js based  command line tool example",
+  "description": "node.js based command line tool example",
   "main": "index.js",
   "bin": {
     "node-commandline-example": "./index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eu81273/node-commandline-example.git"
   },
   "engines": {
     "node": ">=4.0.0"
