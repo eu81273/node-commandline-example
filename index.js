@@ -13,6 +13,7 @@ commander
 			var password = yield coPrompt.password('password: ');
 
 			console.log('사용자는 %s\n패스워드는 %s\n파일은 %s', username, password, file);
+			process.exit(0);
 		});
 	})
 	.parse(process.argv);
